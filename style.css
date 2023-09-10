@@ -101,28 +101,28 @@ nav .logo a{
         clip-path: circle(50% at bottom );
     }
     .content .image img{
-        width: 280px;
-    }
-}
-@media only screen and (min-width: 400px) {
-    .content .image img{
         width: 200px;
     }
 }
-  /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .content .image img{
+        width: 160px;
+    }
+}
+  /* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .content .image img{
+        width: 210px;
+    }
+}
+@media screen and (min-width: 1201px) and (max-width: 1440px) {
+    .content .image img{
+        width: 280px;
+    }
+}  
+@media screen and (min-width: 1441px) and (max-width: 1500px) {
     .content .image img{
         width: 330px;
     }
 } 
-  /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .content .image img{
-        width: 280px;
-    }
-} 
-@media only screen and (min-width: 1200px){
-    .content .image img{
-        width: 400px;
-    }
-}
+
